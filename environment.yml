@@ -1,0 +1,12 @@
+name: pin-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pinocchio
+  - conda-forge::example-robot-data
+  - conda-forge::meshcat-python
+  - conda-forge::matplotlib
+  - conda-forge::tqdm
+  - conda-forge::python-utils
+prefix: /home/neyrad/miniconda3/envs/pin-env
